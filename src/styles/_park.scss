@@ -1,0 +1,266 @@
+h3 {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.nps-link {
+  font-size: 14px;
+  display: block;
+}
+
+.card-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  margin-top: -651px;
+  margin-left: 1px;
+  height: 700px;
+  width: 1350px;
+  z-index: 12;
+}
+
+.park-title {
+  margin: 0 15px 15px 15px;
+  text-align: center;
+  font-size: 24px;
+  font: ruby;
+}
+
+.park-card-small {
+  height: 700px;
+  width: 1350px;
+  font-family: $body-font;
+  border: 1px solid black;
+  background-color: #84CEEB;
+
+  h3 {
+    display: none;
+  }
+
+  .nps-link {
+    padding: 10px;
+    color: #282c34;
+  }
+}
+
+.park-text-small {
+  margin: 10px 10px;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.park-img-small {
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.fa-times-circle {
+  margin: 5px;
+  height: 22px;
+  width: 22px;
+  &:hover {
+    color: red;
+    font-size: 18px;
+  }
+}
+
+.park-card-large {
+  height: 800px;
+  width: 1350px;
+  font-family: $body-font;
+  border: 1px solid black;
+  background-color: #84CEEB;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .fa-times-circle {
+    margin: 15px 5px 5px 0;
+  }
+
+  .park-descrip {
+    display: block;
+  }
+}
+
+.park-text-large {
+  margin: 0 25px 15px 15px;
+  text-align: justify;
+  font-size: 14px;
+
+}
+
+.park-img-large {
+  grid-row: span 2;
+  margin: 15px;
+  height: 420px;
+  max-width: 500px;
+  object-fit: cover;
+}
+
+.park-descrip {
+  overflow-y: auto;
+  height: 99px;
+}
+
+.park-descrip::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.park-descrip::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+
+.park-descrip::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.weather-info {
+  overflow-y: auto;
+  height: 99px;
+}
+
+.weather-info::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.weather-info::-webkit-scrollbar:vertical {
+  width: 11px
+}
+
+.weather-info::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.card-overlay {
+  overflow-y: auto;
+  //height: 900px;
+}
+
+.card-overlay::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.card-overlay::-webkit-scrollbar:vertical {
+  widht: 11px
+}
+
+.card-overlay::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.directions {
+  overflow-y: auto;
+  height: 99px;
+}
+
+.directions::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.directions::-webkit-scrollbar:vertical {
+  width: 11px
+}
+
+.directions::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+
+.activities {
+  overflow-y: auto;
+  height: 99px;
+}
+
+.activities::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.activities::-webkit-scrollbar:vertical {
+  width: 11px
+}
+
+.activities::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+
+
+.park-descrip::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+
+.button-small {
+  box-shadow: none;
+  display: block;
+  font-size: 14px;
+  margin: 5px auto;
+  &:hover {
+    background-color: lightgray;
+  }
+}
+
+p {
+  margin: 10px;
+}
+
+.user-list-btns {
+  display: grid;
+  grid-template-columns: 36px 36px;
+   justify-content: center;
+  margin-top: 14px;
+  margin-right: 50px;
+  height: 20px;
+}
+
+@media (max-width: 1120px) {
+  .park-img-large {
+  max-width: 350px;
+}
+}
+
+@media (max-width:  1000px){
+  .park-card-large {
+  grid-template-columns: 1fr;
+  }
+  .park-img-large {
+      display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .park-title {
+    font-size: 20px;
+  }
+
+  .park-card-small,
+  .park-img-small {
+  width: 400px;
+    height: 400px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .park-descrip {
+  height: 62px;
+  }
+
+  .park-card-small,
+  .park-img-small {
+  width: 400px;
+    height: 400px;
+  }
+}

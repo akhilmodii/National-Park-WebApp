@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Park should match the snapshot with all data passed in 1`] = `
+<div
+  className="card-overlay"
+>
+  <div
+    className="park-card-small"
+  >
+    <i
+      className="far fa-times-circle"
+      id="remove-card"
+      onClick={[Function]}
+    />
+    <h1
+      className="park-title"
+    >
+      Death Valley
+       National Park
+    </h1>
+    <img
+      alt="park"
+      className="park-img-small"
+      src="./assets/death-valley.jpg"
+    />
+    <h3
+      className="park-text-small"
+    >
+      Park Highlight: 
+      Badwater Basin Salt Flats
+    </h3>
+    <button
+      className="button-small"
+      onClick={[Function]}
+    >
+      View More
+    </button>
+    <div
+      className="user-list-btns"
+    >
+      <Buttons
+        bucketListParks={
+          Array [
+            "yell",
+          ]
+        }
+        iconType="fas fa-hiking"
+        parkUrl="deva"
+        storageKey="visitedParks"
+        updateParkCodes={[Function]}
+        visitedParks={
+          Array [
+            "deva",
+            "grsm",
+          ]
+        }
+      />
+      <Buttons
+        bucketListParks={
+          Array [
+            "yell",
+          ]
+        }
+        iconType="fas fa-clipboard-list"
+        parkUrl="deva"
+        storageKey="bucketList"
+        updateParkCodes={[Function]}
+        visitedParks={
+          Array [
+            "deva",
+            "grsm",
+          ]
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

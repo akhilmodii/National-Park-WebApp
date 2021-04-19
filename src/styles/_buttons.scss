@@ -1,0 +1,40 @@
+.icon-btns {
+  justify-self: center;
+  font-size: 100px;
+}
+.fa-clipboard-list,
+.fa-hiking,
+.fa-booking {
+  font-family: $icon-font;
+  font-size: 25px;
+  cursor: pointer;
+  //padding-left: 500px;
+  //padding-up: 2000px;
+  //padding-bottom: 100px;
+}
+
+//.fa-booking {
+//  font-family: $icon-font;
+//  font-size: 25px;
+//  cursor: pointer;
+//}
+
+.fa-clipboard-list:hover {
+  color: $violet;
+  font-size: 29px;
+}
+
+.fa-hiking:hover {
+  color: $green;
+  font-size: 29px;
+}
+
+#bucket {
+  color: $violet;
+  //padding: 25px;
+
+}
+
+#visited {
+  color: $green;
+}

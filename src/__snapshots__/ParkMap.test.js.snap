@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ParkMap should match the snapshot with all data passed in 1`] = `
+<div
+  className="map-container"
+>
+  <Map
+    center={
+      Array [
+        37.0902,
+        -95.7129,
+      ]
+    }
+    id="map"
+    maxZoom="8"
+    minZoom="3"
+    zoom={4}
+  >
+    <ForwardRef(Leaflet(TileLayer))
+      attribution="Tiles © Esri — Source: US National Park Service"
+      maxZoom="8"
+      url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}"
+    />
+    <ForwardRef(Leaflet(TileLayer))
+      attribution="Map tiles by <a href=\\"http://stamen.com\\">Stamen Design</a>, <a href=\\"http://creativecommons.org/licenses/by/3.0\\">CC BY 3.0</a> — Map data © <a href=\\"http://www.openstreetmap.org/copyright\\">OpenStreetMap</a>"
+      ext="png"
+      maxZoom="20"
+      minZoom="0"
+      subdomains="abcd"
+      url="https://stamen-tiles-{s}.a.ssl.fastly.net/toner-hybrid/{z}/{x}/{y}{r}.{ext}"
+    />
+    <ForwardRef(Leaflet(Marker))
+      icon={
+        NewClass {
+          "_initHooksCalled": true,
+          "options": Object {
+            "iconAnchor": Array [
+              12,
+              41,
+            ],
+            "iconSize": Array [
+              25,
+              41,
+            ],
+            "iconUrl": "./assets/marker-icon-green.png",
+            "popupAnchor": Array [
+              1,
+              -34,
+            ],
+            "shadowSize": Array [
+              41,
+              41,
+            ],
+            "shadowUrl": "./assets/marker-shadow.png",
+          },
+        }
+      }
+      id="deva"
+      key="deva"
+      onClick={[Function]}
+      position={
+        Array [
+          "36.24",
+          "-116.82",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Tooltip))>
+        Death Valley
+      </ForwardRef(Leaflet(Tooltip))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      icon={
+        NewClass {
+          "_initHooksCalled": true,
+          "options": Object {
+            "iconAnchor": Array [
+              12,
+              41,
+            ],
+            "iconSize": Array [
+              25,
+              41,
+            ],
+            "iconUrl": "./assets/marker-icon-green.png",
+            "popupAnchor": Array [
+              1,
+              -34,
+            ],
+            "shadowSize": Array [
+              41,
+              41,
+            ],
+            "shadowUrl": "./assets/marker-shadow.png",
+          },
+        }
+      }
+      id="grsm"
+      key="grsm"
+      onClick={[Function]}
+      position={
+        Array [
+          "35.68",
+          "-83.53",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Tooltip))>
+        Great Smoky Mountains
+      </ForwardRef(Leaflet(Tooltip))>
+    </ForwardRef(Leaflet(Marker))>
+    <ForwardRef(Leaflet(Marker))
+      icon={
+        NewClass {
+          "_initHooksCalled": true,
+          "options": Object {
+            "iconAnchor": Array [
+              12,
+              41,
+            ],
+            "iconSize": Array [
+              25,
+              41,
+            ],
+            "iconUrl": "./assets/marker-icon-violet.png",
+            "popupAnchor": Array [
+              1,
+              -34,
+            ],
+            "shadowSize": Array [
+              41,
+              41,
+            ],
+            "shadowUrl": "./assets/marker-shadow.png",
+          },
+        }
+      }
+      id="yell"
+      key="yell"
+      onClick={[Function]}
+      position={
+        Array [
+          "44.60",
+          "-110.50",
+        ]
+      }
+    >
+      <ForwardRef(Leaflet(Tooltip))>
+        Yellowstone
+      </ForwardRef(Leaflet(Tooltip))>
+    </ForwardRef(Leaflet(Marker))>
+  </Map>
+</div>
+`;

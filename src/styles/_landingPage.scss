@@ -1,0 +1,114 @@
+.landing-background0 {
+  @include background-image("https://i.imgur.com/iVKglLi.jpg");
+}
+
+.landing-background1 {
+  @include background-image("https://i.imgur.com/CFczeGe.jpg");
+}
+
+.landing-background2 {
+  @include background-image("https://i.imgur.com/Fiy0aLl.jpg");
+}
+
+.landing-background3 {
+  @include background-image("https://i.imgur.com/hiy2MOw.jpg");
+}
+
+.landing-background4 {
+  @include background-image("https://i.imgur.com/cP2RlpJ.jpg");
+}
+
+.landing-background5 {
+  @include background-image("https://i.imgur.com/1s10GPV.jpg");
+}
+
+.splash-div {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -400px;
+}
+
+.splash-title {
+  @include title-style();
+}
+
+button {
+  @include button-style();
+  font-size: 100px;
+}
+
+.info-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px black;
+  font-family: $body-font;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 20px auto;
+  opacity: .75;  
+  padding: 20px;
+  text-align: center;
+  width: 500px;
+}
+
+.enter-btn {
+  font-size: 18px;
+  font-weight: bold;
+  opacity: .9;
+  width: 200px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+@media (max-width: 750px) {
+  .splash-title {
+    font-size: 90px;
+  }
+  .info-card {
+    width: 300px;
+    font-size: 14px;
+  }
+
+  .enter-btn {
+    font-size: 15px;
+    width: 150px;
+
+  }
+}
+
+@media (max-width: 500px) {
+  .splash-title {
+    font-size: 75px;
+  }
+  .info-card {
+    width: 270px;
+    font-size: 13px;
+  }
+
+  .enter-btn {
+    font-size: 13px;
+    width: 100px;
+  }
+}
+
+@media (max-width: 420px) {
+  .splash-title {
+    font-size: 50px;
+  }
+  .info-card {
+    width: 175px;
+    font-size: 12px;
+  }
+
+  .enter-btn {
+    font-size: 13px;
+    width: 85px;
+  }
+}
